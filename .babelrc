@@ -1,0 +1,18 @@
+{
+  "presets": [
+    "@babel/preset-typescript",
+    ["@babel/preset-env", {
+      "targets": "ie 11",
+      "modules": false
+    }],
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    ["@babel/proposal-decorators", {
+      "legacy": true,
+      "loose": true
+    }],
+    "@babel/proposal-class-properties",
+    "@babel/proposal-object-rest-spread",
+  ]
+}
